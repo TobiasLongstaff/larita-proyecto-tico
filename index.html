@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Proyecto menu</title>
+</head>
+<body>
+    <div class="container-app">
+        <nav class="tab-menu">
+            <h1>Proyecto menu</h1>
+            <button type="button" class="btn-menu">Profesores</button>
+            <button type="button" class="btn-menu">Materias</button>
+            <button type="button" class="btn-menu">Dispositivos</button>
+        </nav>
+        <div class="container-menu">
+            <header>
+                <h2>Profesores</h2>
+            </header>
+            <main>
+                <form id="form-profesores">
+                    <div>
+                        <label>Nombre</label>
+                        <input type="text" id="nombre" required placeholder="Juan">                        
+                    </div>
+                    <div>
+                        <label>Apellido</label>
+                        <input type="text" id="apellido" required placeholder="Grizzly">                        
+                    </div>
+                    <button type="submit">Guardar</button>
+                </form>
+            </main>               
+        </div>
+    </div>
+    <script src="./app.js"></script>
+</body>
+</html>
